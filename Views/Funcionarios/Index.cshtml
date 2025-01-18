@@ -1,0 +1,201 @@
+﻿@model IEnumerable<CadastrarFuncionariosMVC.ViewModels.FuncionariosViewModel>
+
+<!-- Exibição de mensagens de sucesso -->
+@if (TempData["MensagemSucesso"] != null)
+{
+    <div class="alert alert-success alert-dismissible fade show" role="alert">
+        @TempData["MensagemSucesso"]
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+}
+@if (TempData["MensagemErro"] != null)
+{
+    <div class="alert alert-danger alert-dismissible fade show" role="alert">
+        @TempData["MensagemErro"]
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+}
+
+<h2>Lista de Funcionários</h2>
+
+<br />
+<br />
+
+<!-- Botão para abrir o modal de criação -->
+<button class="btn btn-primary mb-3" data-bs-toggle="modal" data-bs-target="#modalCriarFuncionario">
+    Criar Novo Funcionário
+</button>
+
+<br />
+<br />
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Nome</th>
+            <th>Idade</th>
+            <th>Email</th>
+            <th>Cargo</th>
+            <th>Ações</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var funcionario in Model)
+        {
+            <tr>
+                <td>@funcionario.Nome</td>
+                <td>@funcionario.Idade</td>
+                <td>@funcionario.Email</td>
+                <td>@funcionario.Cargo</td>
+                <td>
+                    <!-- Botão para abrir o modal de atualização -->
+                    <button class="btn btn-warning" data-bs-toggle="modal"
+                            data-bs-target="#modalAtualizarFuncionario"
+                            data-id="@funcionario.Id"
+                            data-nome="@funcionario.Nome"
+                            data-idade="@funcionario.Idade"
+                            data-email="@funcionario.Email"
+                            data-cargo="@funcionario.Cargo">
+                        Atualizar
+                    </button>
+
+                    <!-- Botão para abrir o modal de exclusão -->
+                    <button class="btn btn-danger" data-bs-toggle="modal"
+                            data-bs-target="#modalExcluirFuncionario"
+                            data-id="@funcionario.Id">
+                        Excluir
+                    </button>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<!-- Modais (Criar, Atualizar, Excluir) -->
+<!-- Já fornecidos no código anterior -->
+<!-- Modal Criar Funcionário -->
+<div class="modal fade" id="modalCriarFuncionario" tabindex="-1" aria-labelledby="modalCriarFuncionarioLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <form asp-action="SalvarFuncionario" method="post">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalCriarFuncionarioLabel">Criar Novo Funcionário</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="mb-3">
+                        <label for="nome" class="form-label">Nome</label>
+                        <input type="text" class="form-control" id="nome" name="Nome" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="idade" class="form-label">Idade</label>
+                        <input type="number" class="form-control" id="idade" name="Idade" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email" name="Email" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="cargo" class="form-label">Cargo</label>
+                        <input type="text" class="form-control" id="cargo" name="Cargo" required>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                    <button type="submit" class="btn btn-primary">Salvar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- Modal Atualizar Funcionário -->
+<div class="modal fade" id="modalAtualizarFuncionario" tabindex="-1" aria-labelledby="modalAtualizarFuncionarioLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <form asp-action="EditarFuncinario" method="post">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalAtualizarFuncionarioLabel">Atualizar Funcionário</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <input type="hidden" id="funcionarioId" name="Id">
+                    <div class="mb-3">
+                        <label for="nome" class="form-label">Nome</label>
+                        <input type="text" class="form-control" id="nome" name="Nome" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="idade" class="form-label">Idade</label>
+                        <input type="number" class="form-control" id="idade" name="Idade" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email" name="Email" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="cargo" class="form-label">Cargo</label>
+                        <input type="text" class="form-control" id="cargo" name="Cargo" required>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                    <button type="submit" class="btn btn-warning">Atualizar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- Modal Excluir Funcionário -->
+<div class="modal fade" id="modalExcluirFuncionario" tabindex="-1" aria-labelledby="modalExcluirFuncionarioLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <form asp-action="DelatarFuncionario" method="post">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalExcluirFuncionarioLabel">Excluir Funcionário</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <input type="hidden" id="funcionarioIdExcluir" name="Id">
+                    <p>Tem certeza de que deseja excluir este funcionário?</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                    <button type="submit" class="btn btn-danger">Excluir</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        // Preenche os campos do modal de atualizar
+        const modalAtualizarFuncionario = document.getElementById('modalAtualizarFuncionario');
+        modalAtualizarFuncionario.addEventListener('show.bs.modal', function (event) {
+            const button = event.relatedTarget;
+            const id = button.getAttribute('data-id');
+            const nome = button.getAttribute('data-nome');
+            const idade = button.getAttribute('data-idade');
+            const email = button.getAttribute('data-email');
+            const cargo = button.getAttribute('data-cargo');
+
+            const modal = modalAtualizarFuncionario;
+            modal.querySelector('#funcionarioId').value = id;
+            modal.querySelector('#nome').value = nome;
+            modal.querySelector('#idade').value = idade;
+            modal.querySelector('#email').value = email;
+            modal.querySelector('#cargo').value = cargo;
+        });
+
+        // Preenche o campo do modal de excluir
+        const modalExcluirFuncionario = document.getElementById('modalExcluirFuncionario');
+        modalExcluirFuncionario.addEventListener('show.bs.modal', function (event) {
+            const button = event.relatedTarget;
+            const id = button.getAttribute('data-id');
+
+            const modal = modalExcluirFuncionario;
+            modal.querySelector('#funcionarioIdExcluir').value = id;
+        });
+    </script>
+}

@@ -1,0 +1,164 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\vinyo\\source\\repos\\CadastrarFuncionariosMVC\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{61E000B9-FA3D-4EF7-B495-E97D66F99E57}|CadastrarFuncionariosMVC.csproj|c:\\users\\vinyo\\source\\repos\\cadastrarfuncionariosmvc\\views\\funcionarios\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{61E000B9-FA3D-4EF7-B495-E97D66F99E57}|CadastrarFuncionariosMVC.csproj|solutionrelative:views\\funcionarios\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61E000B9-FA3D-4EF7-B495-E97D66F99E57}|CadastrarFuncionariosMVC.csproj|c:\\users\\vinyo\\source\\repos\\cadastrarfuncionariosmvc\\views\\inicio\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{61E000B9-FA3D-4EF7-B495-E97D66F99E57}|CadastrarFuncionariosMVC.csproj|solutionrelative:views\\inicio\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61E000B9-FA3D-4EF7-B495-E97D66F99E57}|CadastrarFuncionariosMVC.csproj|c:\\users\\vinyo\\source\\repos\\cadastrarfuncionariosmvc\\controllers\\funcionarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61E000B9-FA3D-4EF7-B495-E97D66F99E57}|CadastrarFuncionariosMVC.csproj|solutionrelative:controllers\\funcionarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61E000B9-FA3D-4EF7-B495-E97D66F99E57}|CadastrarFuncionariosMVC.csproj|c:\\users\\vinyo\\source\\repos\\cadastrarfuncionariosmvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{61E000B9-FA3D-4EF7-B495-E97D66F99E57}|CadastrarFuncionariosMVC.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61E000B9-FA3D-4EF7-B495-E97D66F99E57}|CadastrarFuncionariosMVC.csproj|c:\\users\\vinyo\\source\\repos\\cadastrarfuncionariosmvc\\viewmodels\\funcionariosviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61E000B9-FA3D-4EF7-B495-E97D66F99E57}|CadastrarFuncionariosMVC.csproj|solutionrelative:viewmodels\\funcionariosviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61E000B9-FA3D-4EF7-B495-E97D66F99E57}|CadastrarFuncionariosMVC.csproj|c:\\users\\vinyo\\source\\repos\\cadastrarfuncionariosmvc\\service\\funcionariosservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61E000B9-FA3D-4EF7-B495-E97D66F99E57}|CadastrarFuncionariosMVC.csproj|solutionrelative:service\\funcionariosservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61E000B9-FA3D-4EF7-B495-E97D66F99E57}|CadastrarFuncionariosMVC.csproj|c:\\users\\vinyo\\source\\repos\\cadastrarfuncionariosmvc\\repository\\funcionariosrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61E000B9-FA3D-4EF7-B495-E97D66F99E57}|CadastrarFuncionariosMVC.csproj|solutionrelative:repository\\funcionariosrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61E000B9-FA3D-4EF7-B495-E97D66F99E57}|CadastrarFuncionariosMVC.csproj|c:\\users\\vinyo\\source\\repos\\cadastrarfuncionariosmvc\\entities\\funcionarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61E000B9-FA3D-4EF7-B495-E97D66F99E57}|CadastrarFuncionariosMVC.csproj|solutionrelative:entities\\funcionarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\vinyo\\source\\repos\\CadastrarFuncionariosMVC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\vinyo\\source\\repos\\CadastrarFuncionariosMVC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABYAAACHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-16T21:09:30.831Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\vinyo\\source\\repos\\CadastrarFuncionariosMVC\\Views\\Inicio\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Inicio\\Index.cshtml",
+              "ToolTip": "C:\\Users\\vinyo\\source\\repos\\CadastrarFuncionariosMVC\\Views\\Inicio\\Index.cshtml",
+              "RelativeToolTip": "Views\\Inicio\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-16T21:05:51.174Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FuncionariosViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\vinyo\\source\\repos\\CadastrarFuncionariosMVC\\ViewModels\\FuncionariosViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\FuncionariosViewModel.cs",
+              "ToolTip": "C:\\Users\\vinyo\\source\\repos\\CadastrarFuncionariosMVC\\ViewModels\\FuncionariosViewModel.cs",
+              "RelativeToolTip": "ViewModels\\FuncionariosViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T21:04:57.294Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FuncionariosRepository.cs",
+              "DocumentMoniker": "C:\\Users\\vinyo\\source\\repos\\CadastrarFuncionariosMVC\\Repository\\FuncionariosRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\FuncionariosRepository.cs",
+              "ToolTip": "C:\\Users\\vinyo\\source\\repos\\CadastrarFuncionariosMVC\\Repository\\FuncionariosRepository.cs",
+              "RelativeToolTip": "Repository\\FuncionariosRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB4AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T20:55:07.608Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\vinyo\\source\\repos\\CadastrarFuncionariosMVC\\Views\\Funcionarios\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Funcionarios\\Index.cshtml",
+              "ToolTip": "C:\\Users\\vinyo\\source\\repos\\CadastrarFuncionariosMVC\\Views\\Funcionarios\\Index.cshtml",
+              "RelativeToolTip": "Views\\Funcionarios\\Index.cshtml",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAowB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-16T20:43:42.633Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FuncionariosController.cs",
+              "DocumentMoniker": "C:\\Users\\vinyo\\source\\repos\\CadastrarFuncionariosMVC\\Controllers\\FuncionariosController.cs",
+              "RelativeDocumentMoniker": "Controllers\\FuncionariosController.cs",
+              "ToolTip": "C:\\Users\\vinyo\\source\\repos\\CadastrarFuncionariosMVC\\Controllers\\FuncionariosController.cs",
+              "RelativeToolTip": "Controllers\\FuncionariosController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T20:05:28.997Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FuncionariosService.cs",
+              "DocumentMoniker": "C:\\Users\\vinyo\\source\\repos\\CadastrarFuncionariosMVC\\Service\\FuncionariosService.cs",
+              "RelativeDocumentMoniker": "Service\\FuncionariosService.cs",
+              "ToolTip": "C:\\Users\\vinyo\\source\\repos\\CadastrarFuncionariosMVC\\Service\\FuncionariosService.cs",
+              "RelativeToolTip": "Service\\FuncionariosService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T20:06:39.901Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Funcionarios.cs",
+              "DocumentMoniker": "C:\\Users\\vinyo\\source\\repos\\CadastrarFuncionariosMVC\\Entities\\Funcionarios.cs",
+              "RelativeDocumentMoniker": "Entities\\Funcionarios.cs",
+              "ToolTip": "C:\\Users\\vinyo\\source\\repos\\CadastrarFuncionariosMVC\\Entities\\Funcionarios.cs",
+              "RelativeToolTip": "Entities\\Funcionarios.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T20:05:48.629Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
